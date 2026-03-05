@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/csce242-frontend/static/css/main.be6ea011.css",
+    "main.js": "/csce242-frontend/static/js/main.b61e1b55.js",
+    "index.html": "/csce242-frontend/index.html",
+    "main.be6ea011.css.map": "/csce242-frontend/static/css/main.be6ea011.css.map",
+    "main.b61e1b55.js.map": "/csce242-frontend/static/js/main.b61e1b55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be6ea011.css",
+    "static/js/main.b61e1b55.js"
+  ]
+}
