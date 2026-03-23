@@ -4,7 +4,7 @@ import Navigation from"./Navigation";
 const Header = () => {
     return (
         <header id="main-header">
-            <h1>Finding a Home</h1>
+            <h1>TopTracks</h1>
             <Navigation />
         </header>
     );

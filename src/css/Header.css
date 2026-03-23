@@ -1,3 +1,8 @@
 #main-header {
-    background:skyblue;
+    text-decoration: underline;
+    text-decoration-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
