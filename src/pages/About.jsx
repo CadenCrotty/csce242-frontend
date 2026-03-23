@@ -10,7 +10,7 @@
 export default About;
 */
 import "../css/About.css";
-
+/*fix layout to make it look better later */
 const songs = [
   {
     rank: 1,
@@ -103,7 +103,7 @@ const songs = [
     plays: "54.0M plays",
   },
 ];
-
+/*add spaces between song date and playss*/
 export default function Rock() {
   return (
     <div className="rock-page">
@@ -127,7 +127,7 @@ export default function Rock() {
               <h3>{song.artist}</h3>
               <p className="song-description">"{song.description}"</p>
 
-              <div className="song-meta">
+              <div className="song-data">
                 <span>Release: {song.release}</span>
                 <span>{song.plays}</span>
               </div>
