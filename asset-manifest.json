@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/csce242-frontend/static/css/main.838a7647.css",
-    "main.js": "/csce242-frontend/static/js/main.13500cec.js",
+    "main.css": "/csce242-frontend/static/css/main.718c766e.css",
+    "main.js": "/csce242-frontend/static/js/main.72daebd0.js",
+    "static/media/homebg.png": "/csce242-frontend/static/media/homebg.b9ec580280c1947bd51f.png",
+    "static/media/MG.png": "/csce242-frontend/static/media/MG.fbfff5feaca249d84567.png",
+    "static/media/CB.png": "/csce242-frontend/static/media/CB.c2a2f7b5eac9d3b682ba.png",
+    "static/media/HWJr.png": "/csce242-frontend/static/media/HWJr.c800a0318dc6c512892b.png",
+    "static/media/house.jpg": "/csce242-frontend/static/media/house.024db9d8a748f5aebb34.jpg",
+    "static/media/redemption.jpg": "/csce242-frontend/static/media/redemption.4bad77707bfddce02ae5.jpg",
+    "static/media/bird.jpg": "/csce242-frontend/static/media/bird.a63ec0682b26a0e7281c.jpg",
     "index.html": "/csce242-frontend/index.html",
-    "main.838a7647.css.map": "/csce242-frontend/static/css/main.838a7647.css.map",
-    "main.13500cec.js.map": "/csce242-frontend/static/js/main.13500cec.js.map"
+    "main.718c766e.css.map": "/csce242-frontend/static/css/main.718c766e.css.map",
+    "main.72daebd0.js.map": "/csce242-frontend/static/js/main.72daebd0.js.map"
   },
   "entrypoints": [
-    "static/css/main.838a7647.css",
-    "static/js/main.13500cec.js"
+    "static/css/main.718c766e.css",
+    "static/js/main.72daebd0.js"
   ]
 }
