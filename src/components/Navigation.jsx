@@ -7,20 +7,24 @@ const Navigation = () => {
 
         const toggleMenu = () => {
             setMenuOpen(!menuOpen);
-            console.log(menuOpen);
+            
         };
     return (
         <nav id="main-nav">
-            <a id="toggle-nav" onClick={toggleMenu} href="#"></a>
-                {menuOpen?(<p>&#8963;</p>):(<p>&#8964;</p>)}
+            <div id="toggle" onClick={toggleMenu}>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
 
-            <ul className={menuOpen?"columns":"hide-small"}>
+            <ul id="nav-items" className={menuOpen ? "" : "hide-small"}>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">Rock</Link></li>
-                <li><Link to="/listings">Country</Link></li>
-                <li><Link to="/listings">Jazz</Link></li>
-                <li><Link to="/listings">Soul</Link></li>
-                <li><Link to="/listings">Reggae</Link></li>
+                <li><Link to="/Country">Country</Link></li>
+                <li><Link to="/Jazz">Jazz</Link></li>
+                <li><Link to="/Soul">Soul</Link></li>
+                <li><Link to="/Reggae">Reggae</Link></li>
+                <li><Link to="/contact">Contact</Link></li>
             </ul>
         </nav>
     );

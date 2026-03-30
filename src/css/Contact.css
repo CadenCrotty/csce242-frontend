@@ -1,0 +1,36 @@
+
+
+#contact-form {
+  margin: 40px auto;
+  width: 300px;
+}
+
+
+#contact-form p {
+  margin-bottom: 10px;
+}
+
+
+#contact-form label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+
+#contact-form button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+#contact-form span {
+  display: block;
+  margin-top: 10px;
+}

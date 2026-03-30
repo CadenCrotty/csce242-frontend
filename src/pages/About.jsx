@@ -1,14 +1,4 @@
-/*const About = () => {
-    return (
-        <main id="about" className="main-content">
-            <h2>About</h2>
-            <p>I'm about this</p>
-        </main>
-    );
-};
 
-export default About;
-*/
 import "../css/About.css";
 /*fix layout to make it look better later */
 const songs = [
@@ -109,7 +99,7 @@ export default function Rock() {
     <div className="rock-page">
 
       <section className="page-title">
-        <h1>Top 10 Rock Songs</h1>
+        <h3>Top 10 Rock Songs</h3>
         <p>The most iconic and influential tracks in the history of rock</p>
       </section>
 
@@ -118,8 +108,8 @@ export default function Rock() {
           <article className="song-card" key={song.rank}>
             <div className="song-rank">#{song.rank}</div>
 
-            <div className="song-image-placeholder">
-              <span>Music</span>
+            <div className="album-image">
+              
             </div>
 
             <div className="song-info">

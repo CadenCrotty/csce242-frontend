@@ -2,6 +2,7 @@ import "../css/Home.css";
 
 import Slideshow from "../components/Slideshow";
 
+
 import bob from "../images/redemption.jpg";
 import hank from "../images/HWJr.png";
 import basie from "../images/CB.png";
@@ -12,7 +13,7 @@ const Home = () => {
     return (
         <main id="home" className="main-content">
             <h2>Welcome to Top Tracks</h2>
-            <p>Explore the greatest songs across Rock, Country, Jazz, Soul, and Reggae. Discover top tracks from iconic artists, and timeless classics that have shaped music history. Whether you're a longtime fan or new to these genres. TopTracks is your gateway to discovery.</p>
+            <p className="home-text">Explore the greatest songs across Rock, Country, Jazz, Soul, and Reggae. Discover top tracks from iconic artists, and timeless classics that have shaped music history. Whether you're a longtime fan or new to these genres. TopTracks is your gateway to discovery.</p>
             <Slideshow />
 
             <div className="card-container">
@@ -27,7 +28,7 @@ const Home = () => {
             </div>
 
             <div className="card card3">
-    <           h2>Featured Artists</h2>
+                <h2>Featured Artists</h2>
                 <p>Explore legendary performers and their signature hits</p>
             </div>
             </div>
